@@ -3,22 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <title>Mypage</title>
+    <link rel="stylesheet" href = "style.css"
 </head>
+
 <body>
-    <h1><b>Name : </b>Kitkhachon Chirawongrungrueang</h1>
-    <h2><b>Nick Name : </b>Jack</h2>
-    <h3><b>Major : </b>Computer Engineering and Artificail Intelligent</h3>
-    <h4><b>Section : </b>1.2 - 1</h4>
-    <img src="17470.jpg"alt="My photo" width="200" height="300">
-    <p><b>เหตุผลที่อยากเรียน Full Stack Development : </b>อยากรู้จักระบบในการพัฒนาโปรแกรมทั้งหมดตั้งแต่database Logic UI ว่ามีการเชื่อมโยงถึงกันอย่างไรและมีการทำงานในแต่ละส่วนอย่างไร</p>
-    <p><b>ความคาดหวังต่อวิชานี้ : </b>ได้สร้างเว็ปไซต์ที่ตนเองพัฒนาเองและรู้ว่าตัวเองควรจะพัฒนาทักษะอะไรเพิ่ม</p>
-    <p><b>จุดอ่อนที่ตนต้องพัฒนาเกี่ยวกับวิชา Programming และแนวทางการพัฒนา : </b>ใช้เวลาค่อนข้างนานในการทำความเข้าใจในเนื้อหาส่วนที่มีความยาก</p>
-    <img src="https://media.tenor.com/Tt0VU5nMzoEAAAAi/zani-dividedbyzero.gif"alt="My interest image 1" width="20%" height="300">
-    <img src="https://media1.tenor.com/m/8eSgoB5psEwAAAAd/chica-anime-anime.gif"alt="My interest image 2" width="25%" height="300">
-    <img src="https://media1.tenor.com/m/heA9KuvviGwAAAAC/tony-stark-iron-man.gif"alt="My interest image 3" width="40%" height="300">
-    <p><b>My interest website : </b><a href="https://school.borntodev.com/">BorntoDev</a></p> 
+<header>
+    <div class = "container">  
+        <table class = "MyHeader">
+            <tr>
+                <td class = "MyProfileTD">
+                    <img class = "MyProfile Curcular" src="17470.jpg"alt="My photo" width="200" height="300">
+                </td>
+
+                <td class = "MyProfileTitleTD">
+                    <p><b>Name : </b>Kitkhachon Chirawongrungrueang</p>
+                    <p><b>Nick Name : </b>Jack</p>
+                    <p><b>Major : </b>Computer Engineering and Artificail Intelligent</p>
+                    <p><b>Section : </b>1.2 - 1</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+<hr class = "Line">
+
+<section>
+    <div class="Title-container" >
+        <p><b>เหตุผลที่อยากเรียน Full Stack Development : </b>อยากรู้จักระบบในการพัฒนาโปรแกรมทั้งหมดตั้งแต่ Database Logic UI ว่ามีการเชื่อมโยงถึงกันอย่างไรและมีการทำงานในแต่ละส่วนอย่างไร</p>
+        <p><b>ความคาดหวังต่อวิชานี้ : </b>ได้สร้างเว็ปไซต์ที่ตนเองพัฒนาเองและรู้ว่าตัวเองควรจะพัฒนาทักษะอะไรเพิ่ม</p>
+        <p><b>จุดอ่อนที่ตนต้องพัฒนาเกี่ยวกับวิชา Programming และแนวทางการพัฒนา : </b>ใช้เวลาค่อนข้างนานในการทำความเข้าใจในเนื้อหาส่วนที่มีความยาก</p>
+    </div>
+
+<hr class = "Line">    
+
+    <div class = "MyFAVImg-container">
+        <img src="https://media.tenor.com/Tt0VU5nMzoEAAAAi/zani-dividedbyzero.gif"alt="My interest image 1" width="20%" height="300">
+        <img src="https://media1.tenor.com/m/8eSgoB5psEwAAAAd/chica-anime-anime.gif"alt="My interest image 2" width="25%" height="300">
+        <img src="https://media1.tenor.com/m/heA9KuvviGwAAAAC/tony-stark-iron-man.gif"alt="My interest image 3" width="40%" height="300">
+    </div>
+
+<hr class = "Line">
     
+    <table class = "MySkill">
+        <thead>
+            <tr class="TBHead   ">
+                <th class="Skill">Skill</th>
+                <th class="Level">Level</th>
+            </tr>
+        </thead>
+        
+        <tr>
+            <td class="DetailSkill">Java</td>
+            <td class = "power">⭐⭐⭐⭐</td>
+        </tr>
+
+        <tr>
+           <td class="DetailSkill">Optimization</td>
+           <td class = "power">⭐⭐⭐⭐⭐</td> 
+        </tr>
+
+        <tr>
+            <td class="DetailSkill">Python</td>
+            <td class = "power">⭐⭐⭐</td>
+        </tr>
+
+        <tr>
+            <td class="DetailSkill">HTML / CSS</td>
+            <td class = "power">⭐⭐⭐</td>
+        </tr>
+    </table>
+    <p><b>My interest website : </b><a href="https://school.borntodev.com/">BorntoDev</a></p> 
+</section> 
+
+<footer id="contact" class="site-footer">
+        <div class="container">
+            <p>Contact  : kitkhachonchi@gmail.com</p>
+        </div>
+    </footer>
+
 </body>
 </html>
