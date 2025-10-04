@@ -1,7 +1,31 @@
+.MyPage-container{
+    width: auto;
+    height: 50px;
+    background-attachment:fixed;
+    background-color: #923423;
+    position: relative;
+}
+
+.ProfileHeader{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin: auto;
+}
+
+.Header-container{
+    margin-top:2% ;
+    margin-left:5%;
+    width: 50%;
+    height: auto;
+    background-attachment: fixed;
+    background-color: azure;
+    border-radius:30px ;
+}
 .MyProfile{
     display: block;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
 }
 
 .Curcular{
@@ -9,12 +33,12 @@
 }
 .MyHeader{
     padding-top:2% ;
-    padding-left:10% ;
+    padding-left:5% ;
 }
 
 .MyProfileTitleTD{
-    padding-left:40px;
-    font-size: 20px;
+    padding-left:60px;
+    font-size: 30px;
     
 }
 
@@ -26,21 +50,33 @@
 }
 
 .Title-container{
-    margin-left:20px;
-    font-size:18px ;
+    width: 95%;
+    height: auto;
+    text-align: center;
+    background-color: rgba(251, 228, 161, 0.747);
+    margin:auto;
+    font-size:25px;
+    border-radius:30px;
+    line-height: 3rem;
 }
 
 .MyFAVImg-container{
         display: block;
         position: relative;
-        margin: 0 auto;        
+        margin: auto;        
 }
 
 body{
     background-color: antiquewhite;
 }
 
-.MySkill, .Skill, .Level, .DetailSkill, .power{
+.MyWrok{
+    table-layout: fixed;
+    width: auto;
+    border: 3px solid rgb(0, 255, 208);        
+    margin: auto;
+}
+.WKHEad, .WorkTimeLine, .WorkPlace{
         font-size: 30px;
         border-collapse: collapse;
         border: 3px solid;
@@ -48,8 +84,15 @@ body{
         height: 100%;
         margin: auto;
         letter-spacing: 1px;
+        color:#000000 ;
+        background-color: rgb(212, 212, 212);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
 }
-
+.WKHEad{
+    background-color: #e5e5e5;
+}
 .site-footer{
     background: #871607;
     color: #cccccc;
@@ -58,3 +101,35 @@ body{
     border-radius:20px;
     font-size: 18px;
 }
+
+a{
+    text-decoration:none;
+    color: #cccccc;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.WEHead{
+    text-align: center;
+    padding-bottom:2rem;
+    font-weight:bold;
+}
+
+.skill{
+    text-align: center;
+    font-weight:bold;
+}
+
+.DetailSkill, .power{
+    border:3px solid;
+    width: 15%;
+    height: auto;
+}
+
+.MySkill{
+    table-layout: fixed;
+    width: 30%;
+    height: auto;
+    border: 7px dotted rgb(0, 255, 208);        
+    margin: auto;
+}   
